@@ -30,6 +30,8 @@ class TwitterOAuth {
   /* Decode returned json data. */
   public $decode_json = TRUE;
   /* Contains the last HTTP headers returned. */
+  public $http_header;
+  /* Contains the last HTTP information. */
   public $http_info;
   /* Set the useragnet. */
   public $useragent = 'TwitterOAuth v0.2.0-beta2';
